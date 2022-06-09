@@ -1,5 +1,15 @@
 # Programmming-Challenge
 
+## How to Run the Codes?
+```
+python3 main.py url.txt output_article_folder
+```
+The main.py takes two arguments to run. The first argument is the txt file that contains the website we want to scrape the articles from (ex:
+https://www.aljazeera.com/where/mozambique/). If we have more website to extract the articles, simply add the urls of these websites to the url.txt file.
+The second argument is the folder path where we save the scraped articles from the websites. The folder could be anything as long as it is an existing empty
+folder at the current level.
+
+
 ## Notes
 The `requirements.txt` file should list all Python libraries that  depend on, and they will be installed using:
 
