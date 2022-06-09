@@ -22,6 +22,7 @@ For the 10 news from https://www.aljazeera.com/where/mozambique/, all the articl
 ## Notes
 The `requirements.txt` file should list all Python libraries that depend on. The necessary libraries are
 - requests
-- BeautifulSoup4
+- beautifulsoup4
 - NLTK
 - tqdm
+- plotly
