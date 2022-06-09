@@ -19,6 +19,9 @@ analyzer that reports the nagative, neutral, positive and compound scores of the
 ## Result
 For the 10 news from https://www.aljazeera.com/where/mozambique/, all the articles' texts are majorly composed of neutral words. And 6 of 10 articles have higher propotion of negative words compared with positive words. Indeed, these latest articles mostly reports the diasteral weather and bad news, which matches with the sentiment analysis results.
 
+## Plot
+Through running the main.py, it will automatically create and show the pie chart of 10 latest articles' sentiment analysis result.
+
 ## Notes
 The `requirements.txt` file should list all Python libraries that depend on. The necessary libraries are
 - requests
