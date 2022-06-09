@@ -113,14 +113,14 @@ if __name__ == '__main__':
     fig.update_layout(
         title_text="Sentiment Score Sumamry of 10 articles",
         # Add annotations in the center of the donut pies.
-        annotations=[dict(text='0', x=0.07, y=0.85, font_size=30, showarrow=False),
-                     dict(text='1', x=0.28, y=0.85, font_size=30, showarrow=False),
-                     dict(text='2', x=0.50, y=0.85, font_size=30, showarrow=False),
-                     dict(text='3', x=0.725, y=0.85, font_size=30, showarrow=False),
-                     dict(text='4', x=0.93, y=0.85, font_size=30, showarrow=False),
-                     dict(text='5', x=0.07, y=0.15, font_size=30, showarrow=False),
-                     dict(text='6', x=0.28, y=0.15, font_size=30, showarrow=False),
-                     dict(text='7', x=0.50, y=0.15, font_size=30, showarrow=False),
-                     dict(text='8', x=0.725, y=0.15, font_size=30, showarrow=False),
-                     dict(text='9', x=0.93, y=0.15, font_size=30, showarrow=False)])
+        annotations=[dict(text='0', x=0.07, y=0.81, font_size=30, showarrow=False),
+                     dict(text='1', x=0.28, y=0.81, font_size=30, showarrow=False),
+                     dict(text='2', x=0.50, y=0.81, font_size=30, showarrow=False),
+                     dict(text='3', x=0.725, y=0.81, font_size=30, showarrow=False),
+                     dict(text='4', x=0.93, y=0.81, font_size=30, showarrow=False),
+                     dict(text='5', x=0.07, y=0.19, font_size=30, showarrow=False),
+                     dict(text='6', x=0.28, y=0.19, font_size=30, showarrow=False),
+                     dict(text='7', x=0.50, y=0.19, font_size=30, showarrow=False),
+                     dict(text='8', x=0.725, y=0.19, font_size=30, showarrow=False),
+                     dict(text='9', x=0.93, y=0.19, font_size=30, showarrow=False)])
     fig.show()
