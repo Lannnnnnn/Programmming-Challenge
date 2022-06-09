@@ -74,6 +74,10 @@ if __name__ == '__main__':
     # input file path and output file path 
     input_url_path = sys.argv[1]
     output_path = sys.argv[2]
+    
+    # create the folder for saving articles if not exist
+    if not os.path.exists(output_path):
+        os.makedirs(output_path)
 
     # read the website urls from the file
     with open(input_url_path) as f:
