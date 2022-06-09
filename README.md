@@ -1,23 +1,21 @@
 # Programmming-Challenge
 
+## How to Run the Codes?
+```
+python3 main.py url.txt output_article_folder
+```
+The main.py takes two arguments to run. The first argument is the txt file that contains the website we want to scrape the articles from (Ex:
+https://www.aljazeera.com/where/mozambique/). If we have other websites to extract the articles, we could simply add the websites' urls to the url.txt file.
+The second argument is the folder path where we save 10 latest scraped articles from the website. The folder could be anything as long as it is an existing empty
+folder at the current level.
+
+## The format of the collected articles
+In the web scraping step, I keep only the paragraphs of articles and remove all the unnecessary images, comments, publishing date, etc. In each of the article 
+json file, it contains the pure text.
+
+## The choice of the Sentiment Analysis
+I use the NLTK library and the VADER(Valence Aware Dictionary and sEntiment Reasoner) to analyze the collected articles. VADER is a pretrained, built-in sentiment
+analyzer that reports the nagative, neutral, positive and compound scores of the text. 
+
 ## Notes
 The `requirements.txt` file should list all Python libraries that  depend on, and they will be installed using:
-
-```
-pip install -r requirements.txt
-```
-
-If you do specify strict versions, it is important to do so for *all*
-your dependencies, not just direct dependencies.
-Strictly specifying only some dependencies is a recipe for environments
-breaking over time.
-
-[pip-compile](https://github.com/jazzband/pip-tools/) is a handy
-tool for combining loosely specified dependencies with a fully frozen environment.
-You write a requirements.in with just the dependencies you need
-and pip-compile will generate a requirements.txt with all the strict packages and versions that would come from installing that package right now.
-That way, you only need to specify what you actually know you need,
-but you also get a snapshot of your environment.
-
-In this example we include the library `seaborn` which will be installed in
-the environment, and our notebook uses it to plot a figure.
