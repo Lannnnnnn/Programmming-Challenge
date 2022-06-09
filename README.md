@@ -16,5 +16,8 @@ json file, it contains the pure text.
 I use the NLTK library and the VADER(Valence Aware Dictionary and sEntiment Reasoner) to analyze the collected articles. VADER is a pretrained, built-in sentiment
 analyzer that reports the nagative, neutral, positive and compound scores of the text. 
 
+## Result
+For the 10 news from https://www.aljazeera.com/where/mozambique/, all the articles' texts are majorly composed of neutral words. And 6 of 10 articles have higher propotion of negative words compared with positive words. Indeed, these latest articles mostly reports the diasteral weather and bad news, which matches with the sentiment analysis results.
+
 ## Notes
 The `requirements.txt` file should list all Python libraries that  depend on, and they will be installed using:
