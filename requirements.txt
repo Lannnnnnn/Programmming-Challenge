@@ -4,6 +4,8 @@
 #
 #    pip-compile
 #
-requests            # via matplotlib
-matplotlib==3.2.1
-tqdm==1.4.1              # via seaborn 
+requests==2.27.1           
+bs4==4.11.1
+tqdm==4.59.0             
+plotly==5.8.1
+nltk==3.6.1
