@@ -6,7 +6,7 @@ python3 main.py url.txt output_article_folder
 ```
 The main.py takes two arguments to run. The first argument is the txt file that contains the website we want to scrape the articles from (Ex:
 https://www.aljazeera.com/where/mozambique/). If we have other websites to extract the articles, we could simply add the websites' urls to the url.txt file.
-The second argument is the folder path where we save 10 latest scraped articles from the website. It could be either an empty existing folder or a brand new path
+The second argument is the folder path where we save 10 latest scraped articles from the website. It could be either an empty existing folder or a new path.
 
 ## The format of the collected articles
 In the web scraping step, I keep only the paragraphs of articles and remove all the unnecessary images, comments, publishing date, etc. In each of the article 
